@@ -1,0 +1,110 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    padding: 0 50px;
+    background: white;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(199, 33, 97);
+}
+a:hover{
+    color:rgb(182, 91, 126);
+}
+
+#hello-kitty{
+    width: 80px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, white, rgb(199, 33, 97));
+    height: 550px;
+}
+
+#eu{
+    width: 21%;
+}
+
+.text{
+    max-width: 50%;
+    color: black
+}
+
+.text h1{
+    font-size: 35px;
+    color:rgb(199, 33, 97);
+}
+
+.text p{
+    font-size: 20px;
+    color: rgb(71, 70, 70);
+    margin-top: 20px;
+}
+
+.text .highlight{
+    color: rgb(199, 33, 97);
+    font-weight: bold;
+}
+
+.my_story {
+    background-color: white;
+    color:rgb(182, 91, 126);
+    margin-top: 20px;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.my_story:hover {
+    background-color: rgb(182, 125, 146);
+    color: white;
+    transition: 0.3s;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 170px;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card{
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(199, 33, 97);
+    border-radius: 10px;
+    color: white;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
