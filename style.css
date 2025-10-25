@@ -6,8 +6,22 @@ body {
 .navbar {
     display: flex;
     padding: 0 50px;
-    background: white;
+    background: rgb(199, 33, 97);
     justify-content: space-between;
+}
+
+.navbar h2{
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.secao {
+    background-color: white;
+    height: 100px;           /* altura da faixa */
+    width: 100%;             /* largura total */
 }
 
 .links{
@@ -38,6 +52,12 @@ a:hover{
     height: 550px;
 }
 
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
 #eu{
     width: 21%;
 }
@@ -80,31 +100,197 @@ a:hover{
     transition: 0.3s;
 }
 
-.redes{
-    display: flex;
-    flex-direction: column;
-    padding: 50px 170px;
-    align-items: center;
+.text2{
+    max-width: 1450px; /* limite máximo */
+    margin: 0 70;   /* centraliza horizontalmente */
+    padding: 30px; 
 }
 
-.cards{
+.seçãoIF{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(119, 169, 92, 0.86);
+}
+
+.seçãoIF p{
+    max-width: 1000px; /* limite máximo */
+    margin: 0 70;   /* centraliza horizontalmente */
+    padding: 50px; 
+}
+
+#IF{
+    width: 20%;
+    padding-left: 30px;
+}
+
+.secao2 {
+    background-color: white;
+    height: 35px;           
+    width: 100%;             
+}
+
+.seçãoCIn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(193, 38, 38, 0.93);
+}
+
+.seçãoCIn p{
+    max-width: 1000px; 
+    margin: 0 70;   
+    padding: 30px; 
+}
+
+#CIn{
+    width: 30%;
+    padding-right: 20px;
+}
+
+.hobbies{
+    background-color: rgba(116, 166, 201, 1);
+}
+
+.hobbies p{
+    padding-left: 30px;
+}
+
+.hobbies h3, h4{
+    padding-left: 20px;
+}
+.posters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#prisioneirodeazcaban{
+    width: 15%;
+}
+#jogosvorazes{
+    width: 15%;
+}
+#aescolhaperfeita{
+    width: 15%;
+}
+#Spiderman{
+    width: 15%;
+}
+
+#glee{
+    width: 15%;
+}
+#avatar{
+    width: 15%;
+}
+#sense8{
+    width: 15%;
+}
+#grimm{
+    width: 15%;
+}
+#someborytolove{
+    width: 15%;
+}
+#dsb{
+    width: 15%;
+}
+#bohemia{
+    width: 15%;
+}
+#creep{
+    width: 15%;
+}
+
+.curiosidade p{
+    max-width: 1450px; /* limite máximo */
+    margin: 0 70;   /* centraliza horizontalmente */
+    padding-left: 30px; 
+    padding-bottom: 30px;
+}
+.curiosidade h3{
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+
+.fotos {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.fotos img {
+    background-color: rgba(235, 188, 206, 1); 
+    padding: 10px; 
+    border-radius: 5px;
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.redes{
+    background-color: rgb(199, 33, 97);
+    display: flex;;
+    padding: 40px;
+}
+
+.redes h3 {
+  margin-bottom: 30px;
+  font-size: 1.5em;
+  padding-right: 80px;
+}
+
+.cards {
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  gap: 60px; 
+  flex-wrap: wrap;                
 }
 
 .card{
-    width: 200px;
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(199, 33, 97);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
     border-radius: 10px;
-    color: white;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img{
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.card p {
+  font-size: 1em;
+  font-weight: 500;
+  color: #222;
+}
+
+.card a {
+  font-size: 1em;
+  font-weight: 500;
+  color: #222;
+  text-decoration: none; 
+  transition: color 0.3s ease;
+}
+
+.card a:hover {
+  color: rgb(182, 91, 126); 
+}
+
+#academico, #hobbies, #curiosidade, #redes {
+  scroll-margin-top: 80px;
 }
